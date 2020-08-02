@@ -3,7 +3,7 @@
 
 
 
-├─data  // 数据集
+├─data  // 数据集  
 │  ├─embeddings
 │  ├─FB15k     
 │  └─YAGO39K
@@ -26,12 +26,12 @@
 │  ├─data  存储训练好的模型
 │  ├─embeddings  好像是多余的？
 │  ├─TransC   TransC模型的实现及测试
-│  │  │  Test_TransC_Classification_InstanceOf.py   InstanceOf类型的元组分类
-│  │  │  Test_TransC_Classification_Normal.py   Triple类型的三元组分类
-│  │  │  Test_TransC_Classification_SubClassOf.py subClassOf类型的元组分类
-│  │  │  Test_TransC_Link_Predication.py  Triple类型的三元组的链接预测
-│  │  │  Train_TransC.py   TransC模型实现第一版
-│  │  │  Train_TransC2.py  TransC模型实现第二版
+│  │  │  Test_TransC_Classification_InstanceOf.py   InstanceOf类型的元组分类  
+│  │  │  Test_TransC_Classification_Normal.py   Triple类型的三元组分类  
+│  │  │  Test_TransC_Classification_SubClassOf.py subClassOf类型的元组分类  
+│  │  │  Test_TransC_Link_Predication.py  Triple类型的三元组的链接预测  
+│  │  │  Train_TransC.py   TransC模型实现第一版  
+│  │  │  Train_TransC2.py  TransC模型实现第二版  
 │  │  │  
 │  │  └─embeddings  存储训练好的模型参数
 │  │
